@@ -28,3 +28,6 @@ number = int(input())
 
 print("The divisible terms of {} are {} ".format(number,divisible_term(number)))
 print("From second way, The divisible terms of {} are {} ".format(number,divisible_term2(number)))
+
+
+# hence in this problem the O(n) > O(root n), hence the program of divisible_term2 is much faster and efficient
