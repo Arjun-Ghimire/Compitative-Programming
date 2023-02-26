@@ -14,3 +14,17 @@ def max_subarray_sum(arr):
 
 arr = np.array([-2, 1, -3, 4, -1, 2, 1, -5, 4])
 print(int(max_subarray_sum(arr))) # Output: 6
+
+# find prime number 
+import math
+
+def prime(n):
+    if n<2:
+        return False
+    
+    for i in range(5, math.sqrt(n)+1):
+        if n%i ==0 and n%(i+2)==0:
+            return False
+        
+
+    return True

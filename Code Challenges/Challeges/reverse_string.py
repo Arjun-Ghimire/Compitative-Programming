@@ -13,3 +13,7 @@ def check_palindrome(a):
     return a == a[::-1]
 
 print(check_palindrome("asa"))
+
+
+#simple way
+print("bdb"[::-1]=="bdb")

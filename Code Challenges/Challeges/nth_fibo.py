@@ -12,6 +12,6 @@ def findfibo(n):
         return findfibo(n-1)+findfibo(n-2)
 
 
-x = int(input())
+x = int(input("Enter a fibonacci number = "))
 
 print("The fibo sum is = {}".format(findfibo(x)))
