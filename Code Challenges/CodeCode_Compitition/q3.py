@@ -1,4 +1,4 @@
-"""generate sequences of (sequences of 0's and 1's ) of length 19 are there that begin with a 0, end with a 0,
+"""generate random sequences of (sequences of 0's and 1's ) of length 19 are there that begin with a 0, end with a 0,
 contain no two consecutive 0's and contan no three consecutive 1's"""
 
 import random
@@ -7,6 +7,8 @@ import math as m
 n=19
 global my_array
 my_array=[]
+
+
 
 def my_fun(n):
     for i in range(n+1):
@@ -35,7 +37,7 @@ def my_fun(n):
     return my_array
 
 
-print(array_of_array)
+print(my_fun(n))
 
         
 
